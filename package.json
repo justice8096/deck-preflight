@@ -1,0 +1,14 @@
+{
+  "name": "deck-preflight",
+  "version": "1.0.0",
+  "description": "Validate card deck JSON files for completeness, duplicates, and asset references",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "deck-preflight": "src/cli.js" },
+  "exports": { ".": "./src/index.js" },
+  "scripts": { "test": "vitest run" },
+  "author": "Justice",
+  "license": "MIT",
+  "keywords": ["deck", "cards", "validation", "preflight", "tarot"],
+  "devDependencies": { "vitest": "^3.0.0" }
+}
